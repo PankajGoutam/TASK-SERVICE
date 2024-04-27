@@ -3,10 +3,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/microservices
-    username: postgres
-    password: root
     driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://dpg-cnk401ol5elc73d4dnlg-a.oregon-postgres.render.com/database_okf1
+    username: database_okf1_user
+    password: bLgoRKoOUiLKb9jZEX3Yxj1klXE4FwBh
     
   jpa:
     properties:
