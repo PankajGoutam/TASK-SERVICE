@@ -26,4 +26,4 @@ eureka:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: https://eureka-server-ak2z.onrender.com/eureka/
